@@ -19,7 +19,7 @@ namespace Section2.SelectionStatement
                 Console.WriteLine("Y greater than X");
             }
 
-            if (x > y)
+            if (x > y) //Remember that the first true condition will be executed and then it will exit the if
             {
                 Console.WriteLine("X greater than Y");
             }
@@ -34,6 +34,19 @@ namespace Section2.SelectionStatement
             else
             {
                 Console.WriteLine("Y greater than X");
+            }
+
+            switch (r)
+            {
+                case 4:
+                    Console.WriteLine("R equals 4");
+                    break;
+                case 5:
+                    Console.WriteLine("R equals 5");
+                    break;
+                case 11:
+                    Console.WriteLine("R equals 11");
+                    break;
             }
             Console.ReadLine();
         }
