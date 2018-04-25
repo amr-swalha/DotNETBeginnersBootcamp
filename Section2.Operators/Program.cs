@@ -49,8 +49,32 @@ namespace Section2.Operators
             {
                 Console.WriteLine("R and V might be greater than 2");
             }
-            Console.ReadLine();
             /*Arithmetic operators*/
+
+            int t = 0;
+            int s = 0;
+
+            if (t > s)
+            {
+                Console.WriteLine("T is greater than S");
+            }
+            if (t < s)
+            {
+                Console.WriteLine("T is less than S");
+            }
+            if (t == s)
+            {
+                Console.WriteLine("T is equal to S");
+            }
+            if (t >= s)
+            {
+                Console.WriteLine("T is greater or equal to S");
+            }
+            if (t <= s)
+            {
+                Console.WriteLine("T is less or equal to S");
+            }
+            Console.ReadLine();
         }
     }
 }
