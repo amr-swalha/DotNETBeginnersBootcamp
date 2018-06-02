@@ -26,16 +26,56 @@ namespace Section4.Classes
             student.Age = 25;
             student.PrintAge();
             /*Lecture 23- C# Property*/
+            /*Lecture 24- C# Class Constructor*/
+            Student constructorExample = new Student("David","3.5");
+            constructorExample.PrintStudentName();
+            constructorExample.PrintGPA(); 
+            /*Lecture 24- C# Class Constructor */
+            /*Lecture 25- C# Class Inheritance */
+            Student inhertanceStudent = new Student();
+            inhertanceStudent.PrintPhone();
+            /*Lecture 25- C# Class Inheritance */
+            /*Lecture 26- C# Interface */
+            /*Lecture 26- C# Interface */
             Console.ReadLine();
         }
     }
+    /*Lecture 25 - C# Class Inheritance*/
+    public class Profile
+    {
+        public string Phone { get; set; }
+
+        public void PrintPhone()
+        {
+            Console.WriteLine($"Phone #:{Phone}");
+        }
+    }
+    /*Lecture 25 - C# Class Inheritance*/
     /*Lecture 21- C# classes*/
-    public class Student
+
+    public class Student : Profile
     {
         public string StudentName { get; set; }
         public string StudentGPA{get;set;}
         private int _age = 0;
 
+        public Student()
+        {
+            StudentName = "New Student";
+            StudentGPA = "0.0";
+            Phone = "555";
+        }
+
+        ~Student()
+        {
+            StudentName = null;
+            Console.WriteLine("GC Called");
+        }
+        public Student(string studentName,string gpa)
+        {
+            StudentName = studentName;
+            StudentGPA = gpa;
+        }
         public int Age
         {
             get => _age;
