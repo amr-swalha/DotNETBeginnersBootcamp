@@ -36,6 +36,8 @@ namespace Section4.Classes
             inhertanceStudent.PrintPhone();
             /*Lecture 25- C# Class Inheritance */
             /*Lecture 26- C# Interface */
+            Account account = new Account();
+            
             /*Lecture 26- C# Interface */
             Console.ReadLine();
         }
@@ -102,4 +104,28 @@ namespace Section4.Classes
         }
     }
     /*Lecture 21- C# classes*/
+
+    /*Lecture 26- C# Interface */
+    public interface IAccount
+    {
+        decimal Balance { get; set; }
+        void AddToBalance(decimal amount);
+        void SubFromBalance(decimal amount);
+    }
+
+    public class Account : IAccount
+    {
+        public decimal Balance { get; set; }
+
+        public void AddToBalance(decimal amount)
+        {
+            Balance += amount;
+        }
+
+        public void SubFromBalance(decimal amount)
+        {
+            Balance -= amount;
+        }
+    }
+    /*Lecture 26- C# Interface */
 }

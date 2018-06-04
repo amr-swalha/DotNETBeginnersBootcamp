@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE102F4F-F027-4B19-A00E-365345FC6ED9}</ProjectGuid>
+    <ProjectGuid>{20B5E705-5DD7-44C9-938A-42830F877247}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Section4.InterfacesAndNamespaces</RootNamespace>
-    <AssemblyName>Section4.InterfacesAndNamespaces</AssemblyName>
+    <RootNamespace>MultiDimensionalArray</RootNamespace>
+    <AssemblyName>MultiDimensionalArray</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="School\Teacher.cs" />
-    <Compile Include="School\Course.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

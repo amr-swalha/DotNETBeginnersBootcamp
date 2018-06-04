@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Section4.InterfacesAndNamespaces.School;
 namespace Section4.InterfacesAndNamespaces
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Course course = new Course();
+            Teacher teacher = new Teacher();
         }
     }
 }
