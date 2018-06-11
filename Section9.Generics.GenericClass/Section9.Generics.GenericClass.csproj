@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE2DB22B-E6C5-4A1B-B206-172B969F6B87}</ProjectGuid>
+    <ProjectGuid>{4CEAE8E8-797A-4E33-9DD4-2DFF033AABC7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Section9.Generics</RootNamespace>
-    <AssemblyName>Section9.Generics</AssemblyName>
+    <RootNamespace>Section9.Generics.GenericClass</RootNamespace>
+    <AssemblyName>Section9.Generics.GenericClass</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
