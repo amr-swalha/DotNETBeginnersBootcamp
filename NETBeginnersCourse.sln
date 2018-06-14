@@ -55,7 +55,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section10.Collections.ListC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section11", "Section11", "{D49379E7-C397-4C51-A329-F97B81FE2879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11.StaticsAndConstants", "Section11.StaticsAndConstants\Section11.StaticsAndConstants.csproj", "{37686204-EE48-4148-BB9A-EB61F9D46D2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11.StaticsAndConstants.StaticData", "Section11.StaticsAndConstants\Section11.StaticsAndConstants.StaticData.csproj", "{37686204-EE48-4148-BB9A-EB61F9D46D2E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section12", "Section12", "{F7FF6CAE-FE62-43EF-858D-C87E003505E5}"
 EndProject
@@ -92,6 +92,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section9.Generics.GenericInterface", "Section9.Generics.GenericInterface\Section9.Generics.GenericInterface.csproj", "{5B197664-3BA4-407F-8FF0-0A75994C6A15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section10.Collections.DicitionaryCollection", "Section10.Collections.DicitionaryCollection\Section10.Collections.DicitionaryCollection.csproj", "{43257349-81B8-4F78-B9B0-51A0FB52973F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section10.Collections.HashSetCollection", "Section10.Collections.HashSetCollection\Section10.Collections.HashSetCollection.csproj", "{A7CCD95B-02FE-48B8-8D43-557864F9D6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section10.Collections.Iteration", "Section10.Collections.Iteration\Section10.Collections.Iteration.csproj", "{F02ED3C0-965D-4E86-AC6C-204D4D01599F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11.StaticsAndConstants.StaticMethod", "Section11.StaticsAndConstants.StaticMethod\Section11.StaticsAndConstants.StaticMethod.csproj", "{C6198CAF-F257-4CFD-8A13-D0C646284B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11.StaticsAndConstants.StaticClass", "Section11.StaticsAndConstants.StaticClass\Section11.StaticsAndConstants.StaticClass.csproj", "{BA62A02C-249C-4A23-83FA-7F395A5F42FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +227,22 @@ Global
 		{43257349-81B8-4F78-B9B0-51A0FB52973F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43257349-81B8-4F78-B9B0-51A0FB52973F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43257349-81B8-4F78-B9B0-51A0FB52973F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CCD95B-02FE-48B8-8D43-557864F9D6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CCD95B-02FE-48B8-8D43-557864F9D6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CCD95B-02FE-48B8-8D43-557864F9D6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CCD95B-02FE-48B8-8D43-557864F9D6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02ED3C0-965D-4E86-AC6C-204D4D01599F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02ED3C0-965D-4E86-AC6C-204D4D01599F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02ED3C0-965D-4E86-AC6C-204D4D01599F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02ED3C0-965D-4E86-AC6C-204D4D01599F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6198CAF-F257-4CFD-8A13-D0C646284B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6198CAF-F257-4CFD-8A13-D0C646284B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6198CAF-F257-4CFD-8A13-D0C646284B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6198CAF-F257-4CFD-8A13-D0C646284B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA62A02C-249C-4A23-83FA-7F395A5F42FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA62A02C-249C-4A23-83FA-7F395A5F42FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA62A02C-249C-4A23-83FA-7F395A5F42FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA62A02C-249C-4A23-83FA-7F395A5F42FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -254,6 +278,10 @@ Global
 		{4CEAE8E8-797A-4E33-9DD4-2DFF033AABC7} = {B578A3EB-4869-4E9C-8FEC-D975DA8FBA47}
 		{5B197664-3BA4-407F-8FF0-0A75994C6A15} = {B578A3EB-4869-4E9C-8FEC-D975DA8FBA47}
 		{43257349-81B8-4F78-B9B0-51A0FB52973F} = {ADB7A1A7-C367-4821-B947-D969ADEB6C1D}
+		{A7CCD95B-02FE-48B8-8D43-557864F9D6E5} = {ADB7A1A7-C367-4821-B947-D969ADEB6C1D}
+		{F02ED3C0-965D-4E86-AC6C-204D4D01599F} = {ADB7A1A7-C367-4821-B947-D969ADEB6C1D}
+		{C6198CAF-F257-4CFD-8A13-D0C646284B25} = {D49379E7-C397-4C51-A329-F97B81FE2879}
+		{BA62A02C-249C-4A23-83FA-7F395A5F42FB} = {D49379E7-C397-4C51-A329-F97B81FE2879}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB977632-C3F3-469D-BBEB-1FB17A8F215B}
