@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 
 namespace Section15.HandlingIO
 {
@@ -10,6 +6,11 @@ namespace Section15.HandlingIO
     {
         static void Main(string[] args)
         {
+            //File.Create("D:\\testCreate.txt");
+            File.WriteAllText("D:\\testCreate.txt","Hello World");
+            StreamWriter stream = new StreamWriter(@"D:\TestStreamWriter.txt");
+            stream.WriteLine("From Stream Writer");
+            stream.Close();
         }
     }
 }

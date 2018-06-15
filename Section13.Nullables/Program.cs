@@ -10,6 +10,16 @@ namespace Section13.Nullables
     {
         static void Main(string[] args)
         {
+            int? x = null;
+            float? f = 8;
+            decimal? d = 9;
+            if (x.HasValue)
+            {
+                Console.WriteLine("X has value!");
+            }
+
+            int z = x.Value;
+            x.GetValueOrDefault(6);
         }
     }
 }

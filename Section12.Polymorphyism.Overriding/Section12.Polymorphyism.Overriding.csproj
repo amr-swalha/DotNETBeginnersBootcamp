@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC497C05-8925-4CE6-A7C9-F0BEB779A242}</ProjectGuid>
+    <ProjectGuid>{A2097D91-E68F-4650-A271-B5AA65D365CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Section12.Polymorphyism</RootNamespace>
-    <AssemblyName>Section12.Polymorphyism</AssemblyName>
+    <RootNamespace>Section12.Polymorphyism.Overriding</RootNamespace>
+    <AssemblyName>Section12.Polymorphyism.Overriding</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

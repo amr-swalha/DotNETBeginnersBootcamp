@@ -59,7 +59,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11.StaticsAndConstan
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section12", "Section12", "{F7FF6CAE-FE62-43EF-858D-C87E003505E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section12.Polymorphyism", "Section12.Polymorphyism\Section12.Polymorphyism.csproj", "{FC497C05-8925-4CE6-A7C9-F0BEB779A242}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section12.Polymorphyism.Overloading", "Section12.Polymorphyism\Section12.Polymorphyism.Overloading.csproj", "{FC497C05-8925-4CE6-A7C9-F0BEB779A242}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section13", "Section13", "{67E99CC7-8C77-4071-927A-0762B4D3C0A8}"
 EndProject
@@ -67,11 +67,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section13.Nullables", "Sect
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section14", "Section14", "{61F7A1A2-E52D-4048-A602-8A32EB9021B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section14.ErrorHandling", "Section14.ErrorHandling\Section14.ErrorHandling.csproj", "{14BA5AA0-13AC-4A3D-A79E-C8355D914DA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section14.ErrorHandling.TryCatch", "Section14.ErrorHandling\Section14.ErrorHandling.TryCatch.csproj", "{14BA5AA0-13AC-4A3D-A79E-C8355D914DA1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section15", "Section15", "{89061580-97F0-46E5-BBB1-041E84702770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section15.HandlingIO", "Section15.HandlingIO\Section15.HandlingIO.csproj", "{DBA65A99-2C6E-4095-ACBF-A7676AAE57AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section15.HandlingIO.WritingFile", "Section15.HandlingIO\Section15.HandlingIO.WritingFile.csproj", "{DBA65A99-2C6E-4095-ACBF-A7676AAE57AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalArray", "MultiDiemeinsionalArray\MultiDimensionalArray.csproj", "{20B5E705-5DD7-44C9-938A-42830F877247}"
 EndProject
@@ -100,6 +100,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11.StaticsAndConstants.StaticMethod", "Section11.StaticsAndConstants.StaticMethod\Section11.StaticsAndConstants.StaticMethod.csproj", "{C6198CAF-F257-4CFD-8A13-D0C646284B25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11.StaticsAndConstants.StaticClass", "Section11.StaticsAndConstants.StaticClass\Section11.StaticsAndConstants.StaticClass.csproj", "{BA62A02C-249C-4A23-83FA-7F395A5F42FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section12.Polymorphyism.Overriding", "Section12.Polymorphyism.Overriding\Section12.Polymorphyism.Overriding.csproj", "{A2097D91-E68F-4650-A271-B5AA65D365CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section14.ErrorHandling.FinallyThrow", "Section14.ErrorHandling.FinallyThrow\Section14.ErrorHandling.FinallyThrow.csproj", "{DCBC2BCE-AD21-47FC-B707-24DEC3098ED0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +247,14 @@ Global
 		{BA62A02C-249C-4A23-83FA-7F395A5F42FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA62A02C-249C-4A23-83FA-7F395A5F42FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA62A02C-249C-4A23-83FA-7F395A5F42FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2097D91-E68F-4650-A271-B5AA65D365CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2097D91-E68F-4650-A271-B5AA65D365CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2097D91-E68F-4650-A271-B5AA65D365CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2097D91-E68F-4650-A271-B5AA65D365CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBC2BCE-AD21-47FC-B707-24DEC3098ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBC2BCE-AD21-47FC-B707-24DEC3098ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBC2BCE-AD21-47FC-B707-24DEC3098ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBC2BCE-AD21-47FC-B707-24DEC3098ED0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -282,6 +294,8 @@ Global
 		{F02ED3C0-965D-4E86-AC6C-204D4D01599F} = {ADB7A1A7-C367-4821-B947-D969ADEB6C1D}
 		{C6198CAF-F257-4CFD-8A13-D0C646284B25} = {D49379E7-C397-4C51-A329-F97B81FE2879}
 		{BA62A02C-249C-4A23-83FA-7F395A5F42FB} = {D49379E7-C397-4C51-A329-F97B81FE2879}
+		{A2097D91-E68F-4650-A271-B5AA65D365CB} = {F7FF6CAE-FE62-43EF-858D-C87E003505E5}
+		{DCBC2BCE-AD21-47FC-B707-24DEC3098ED0} = {61F7A1A2-E52D-4048-A602-8A32EB9021B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB977632-C3F3-469D-BBEB-1FB17A8F215B}
