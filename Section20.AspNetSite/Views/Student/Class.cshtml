@@ -1,0 +1,20 @@
+﻿@model IEnumerable<ClassData>
+@{
+    ViewData["Title"] = "Class";
+}
+
+@{
+    foreach (var classData in Model)
+    {
+        <h2>@classData.ClassName</h2>
+        <h3>@classData.StartDate</h3>
+        <ul>
+            @{
+                foreach (var student in classData.StudentEnrolled)
+                {
+                    <li>@student</li>
+                }
+            }
+        </ul>
+    }
+}
