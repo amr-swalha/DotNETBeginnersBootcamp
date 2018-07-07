@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Section20.AspNetSite
+namespace Section22.ASPNETCoreAdvanced
 {
     public class Startup
     {
@@ -21,7 +21,6 @@ namespace Section20.AspNetSite
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSession();
             services.AddMvc();
         }
 
@@ -38,16 +37,13 @@ namespace Section20.AspNetSite
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseSession();
             app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-                routes.MapRoute(
-                    name: "product",
-                    template: "product/{controller=Product}/{action=Home}");
             });
         }
     }
