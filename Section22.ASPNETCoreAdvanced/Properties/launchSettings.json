@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/Section22.ASPNETCoreAdvanced",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:54038/",
       "sslPort": 0
@@ -16,7 +20,7 @@
       }
     },
     "Section22.ASPNETCoreAdvanced": {
-      "commandName": "Project",
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

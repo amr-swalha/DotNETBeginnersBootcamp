@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Section25.XamarinFormsApp.Views.Examples.EntryExample">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Enter Username" 
+                   TextColor="CornflowerBlue" 
+                   PlaceholderColor="Red" 
+                   MaxLength="20" 
+                   Keyboard="Email"
+                   Completed="Entry_OnCompleted"
+                   TextChanged="Entry_OnTextChanged"></Entry>
+            <Entry IsPassword="True"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

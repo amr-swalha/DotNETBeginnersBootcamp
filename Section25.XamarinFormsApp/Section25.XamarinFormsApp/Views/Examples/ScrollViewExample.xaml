@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Section25.XamarinFormsApp.Views.Examples.ScrollViewExample">
+    <ContentPage.Content>
+       <ScrollView x:Name="userScrollView">
+           <StackLayout>
+               <Button x:Name="ScrollDown" Clicked="ScrollDown_OnClicked"></Button>
+               <BoxView BackgroundColor="Blue" HeightRequest="600" WidthRequest="150"></BoxView>
+               <Entry x:Name="UserEntry" VerticalOptions="FillAndExpand" HorizontalOptions="StartAndExpand"></Entry>
+           </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -9,7 +9,7 @@ using Section22.ASPNETCoreAdvanced.Models;
 
 namespace Section22.ASPNETCoreAdvanced.Controllers
 {
-    [Produces("application/json")]
+    //[Produces("application/json")]
     [Route("api/Students")]
     public class StudentsController : Controller
     {
