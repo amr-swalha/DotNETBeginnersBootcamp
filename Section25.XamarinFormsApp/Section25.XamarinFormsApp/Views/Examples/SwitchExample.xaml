@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Section25.XamarinFormsApp.Views.Examples.SwitchExample">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Switch Example" FontSize="Large"></Label>
+            <Label BindingContext="{x:Reference SwitchBnt}" x:Name="LblSwitch" Text="{Binding IsToggled}" ></Label>
+            <Switch x:Name="SwitchBnt" IsToggled="True" Toggled="SwitchBnt_OnToggled"></Switch>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -15,7 +15,7 @@ namespace Section25.XamarinFormsApp
 			InitializeComponent();
 
 
-			MainPage = new EntryExample();
+			MainPage = new SwitchExample();
 		}
 
 		protected override void OnStart ()
