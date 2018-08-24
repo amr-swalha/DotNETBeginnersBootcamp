@@ -1,4 +1,6 @@
 using System;
+using System.IO;
+using SQLite;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,8 +15,7 @@ namespace Section26.XamarinFormsApp
 
 			MainPage = new MainPage();
 		}
-
-		protected override void OnStart ()
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}

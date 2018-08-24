@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Section26.XamarinFormsApp.DatabindingExample">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Data}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="AddBnt" Clicked="AddBnt_OnClicked"></Button>
+            <Button x:Name="SubBnt" Clicked="SubBnt_OnClicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ExampleDB"
+             x:Class="ExampleDB.MainPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Name"></Label>
+                <Entry x:Name="EntName"></Entry>
+                <Button Text="Save Student" Clicked="Button_OnClicked"></Button>
+                <Label Text="Get Student By Id"></Label>
+                <Button x:Name="BntGetById" Text="Get Student" Clicked="BntGetById_OnClicked"></Button>
+                <Entry x:Name="EntNameById"></Entry>
+                <Label x:Name="LblStudentName"></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
