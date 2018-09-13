@@ -10,6 +10,10 @@ namespace Section1.HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter your name");
+            var name = Console.ReadLine();
+            Console.WriteLine($"Hello, Mr./Mr.s {name}");
+            Console.ReadLine();
         }
     }
 }

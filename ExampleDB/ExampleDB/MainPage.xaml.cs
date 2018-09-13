@@ -1,5 +1,5 @@
-﻿using System;
-using ExampleDB.Models;
+﻿using ExampleDB.Models;
+using System;
 using Xamarin.Forms;
 
 namespace ExampleDB

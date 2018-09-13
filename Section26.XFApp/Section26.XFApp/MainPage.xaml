@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Section26.XFApp"
+             x:Class="Section26.XFApp.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label x:Name="DataLabel" Text="{Binding Name}"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>

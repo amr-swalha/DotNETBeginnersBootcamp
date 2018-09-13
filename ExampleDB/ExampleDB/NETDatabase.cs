@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using ExampleDB.Models;
+﻿using ExampleDB.Models;
 using SQLite;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ExampleDB
 {
