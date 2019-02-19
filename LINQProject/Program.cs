@@ -7,7 +7,9 @@ namespace LINQProject
         static void Main(string[] args)
         {
             WhereExample whereExample = new WhereExample();
-            whereExample.SimpleWhere();
+            //whereExample.SimpleWhere();
+            GroupExample groupExample = new GroupExample();
+            groupExample.GroupExampleQuery();
             Console.ReadLine();
         }
     }
